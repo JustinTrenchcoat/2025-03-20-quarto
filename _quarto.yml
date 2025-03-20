@@ -1,0 +1,27 @@
+# change output directory into folder the GitHub would understand
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "DSCI 310 Website"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+
+# overwrite any render-on-save option
+editor:
+  render-on-save: true
+
+
+
