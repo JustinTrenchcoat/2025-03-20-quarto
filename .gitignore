@@ -47,5 +47,3 @@ rsconnect/
 
 /.quarto/
 _site
-
-/docs/site_libs/*
